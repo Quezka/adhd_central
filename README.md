@@ -1,4 +1,4 @@
-ADHD Central
+# ADHD Central
 ADHD Central is a lightweight, cross‑platform productivity tool designed around ADHD‑friendly workflows.
 It focuses on reducing friction, lowering activation energy, and making decisions easier through simple, fast, and structured tools.
 This project currently includes:
@@ -7,33 +7,32 @@ This project currently includes:
 - Optional Syncthing sync support
 - A planned Android app (Java)
 
-✨ Features
-📝 Task Manager
+# ✨ Features
+## 📝 Task Manager
 - Add tasks instantly
 - Remove tasks
 - Random task picker to break decision paralysis
 - Persistent storage in data.json
-⏱ Sprint Timer
+## ⏱ Sprint Timer
 - 5‑minute sprint cycles
 - Start / Stop / Clear controls
 - Automatic logging of completed sprints
 - Real‑time countdown display
 - Helps kickstart focus and build momentum
-😴 Sleep Log
+## 😴 Sleep Log
 - One‑tap “Sleep” and “Wake” logging
 - Timestamped entries
 - Included in weekly summaries
-📊 Weekly Review
+## 📊 Weekly Review
 - Calculates:
 - Total sprints
 - Total focused minutes
 - Sleep log entries
 - Week start date
 - Helps you reflect on habits and progress
-🔄 Syncthing‑Ready Storage
+## 🔄 Syncthing‑Ready Storage
 All data is stored in a single JSON file:
 data.json
-
 
 This file is:
 - Human‑readable
@@ -41,17 +40,17 @@ This file is:
 - Easy to sync across devices
 - Compatible with Syncthing, Dropbox, iCloud, etc.
 
-🧱 Tech Stack
+# 🧱 Tech Stack
 Desktop App
 - Python 3
 - PySide6 (Qt Widgets)
 - JSON persistence
-Planned Mobile App
+# Planned Mobile App
 - Android (Java)
 - Shared JSON schema
 - Optional Syncthing integration
 
-📁 Project Structure
+# 📁 Project Structure
 adhd_central/
 │
 ├── main.py               # App entry point
@@ -61,24 +60,12 @@ adhd_central/
 ├── ui/                   # Qt UI files (if applicable)
 └── android/              # Android app (planned)
 
+# 🔧 Installation
+## 1. Go to the Releases page
+## 2. Download ADHD-Central.exe (portable) or ADHD-Central-Installer.exe (installer)
+## 3. Use!
 
-
-🔧 Installation
-1. Clone the repository
-git clone https://github.com/quezka/adhd_central
-cd adhd_central
-
-
-2. Install dependencies
-pip install -r requirements.txt
-
-
-3. Run the app
-python main.py
-
-
-
-🔄 Syncing Data with Syncthing (Optional)
+# 🔄 Syncing Data with Syncthing (Optional)
 You can sync your data.json across devices using Syncthing:
 - Create a shared folder in Syncthing
 - Place data.json inside it
@@ -86,7 +73,7 @@ You can sync your data.json across devices using Syncthing:
 - Syncthing keeps everything in sync automatically
 This gives you a peer‑to‑peer cloud backend without servers.
 
-🛣 Roadmap
+# 🛣 Roadmap
 - Android app (Java/Kotlin)
 - iOS app (Swift)
 - Better task categories & tagging
@@ -95,9 +82,9 @@ This gives you a peer‑to‑peer cloud backend without servers.
 - Optional encrypted sync backend
 - UI improvements (themes, animations, acrylic/Mica on Windows)
 
-🤝 Contributing
+# 🤝 Contributing
 Contributions are welcome!
 Feel free to open issues, submit PRs, or propose features.
 
-📜 License
-MIT License — see LICENSE for details.
+# 📜 License
+MIT License — see ```LICENSE``` for details.
